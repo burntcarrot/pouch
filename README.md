@@ -10,3 +10,13 @@ My "hacky" way to setup PostgreSQL with mock data.
 - Seeding PostgreSQL database through generated seeds and bash script (`seed.sh`)
 - Loaders for loading csv data to PostgreSQL database
 - Automatic data removal through `TRUNCATE TABLE` and delete script
+- Support for backups (`pg_dumpall`)
+- Backup removals using Python (_retention policy = 1 week_)
+- Monitoring options:
+  - PgHero (extensive, use `make pghero`)
+  - Prometheus + Grafana + postgres-exporter (minimal, can be found under `monitoring`)
+- Makefile for seamless interaction
+
+## Screenshots
+
+![PgHero](static/pghero.png)

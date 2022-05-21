@@ -10,9 +10,17 @@ start-rm:
 	@docker-compose up -d --force-recreate
 gen-seed:
 	@python3 gen_seeds.py
+no-seed:
+	@docker-compose up -d --force-recreate
 start-seed:
 	@sudo cp -r seeds/ postgres-data/seeds/
 	@docker-compose down
 	@docker-compose up -d --force-recreate
 	@sleep 5
 	@bash seed.sh
+backup:
+	@bash backup.sh
+remove-backups:
+	@python3 remove_backups.py
+pghero:
+	@bash pghero.sh
