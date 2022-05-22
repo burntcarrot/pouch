@@ -18,9 +18,15 @@ start-seed:
 	@docker-compose up -d --force-recreate
 	@sleep 5
 	@bash seed.sh
+down:
+	@docker-compose down --remove-orphans
 backup:
 	@bash backup.sh
 remove-backups:
 	@python3 remove_backups.py
 pghero:
 	@bash pghero.sh
+get-plans:
+	@bash get_plans.sh
+docs:
+	@bash doc.sh

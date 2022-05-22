@@ -16,6 +16,9 @@ My "hacky" way to setup PostgreSQL with mock data.
   - PgHero (extensive, use `make pghero`)
   - Prometheus + Grafana + postgres-exporter (minimal, can be found under `monitoring`)
 - Makefile for seamless interaction
+- Get query execution plans through `make get-plans`
+- Documentation through `tbls` (`make doc`)
+
 
 ## Screenshots
 
