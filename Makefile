@@ -30,3 +30,7 @@ get-plans:
 	@bash get_plans.sh
 docs:
 	@bash doc.sh
+pgbadger:
+	@bash pgbadger.sh
+pgbench:
+	@bash bench.sh

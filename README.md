@@ -18,8 +18,11 @@ My "hacky" way to setup PostgreSQL with mock data.
 - Makefile for seamless interaction
 - Get query execution plans through `make get-plans`
 - Documentation through `tbls` (`make doc`)
-
+- Benchmarks using `pgbench` (`make bench`)
+- Log analysis using PgBadger (`make pgbadger`)
 
 ## Screenshots
 
 ![PgHero](static/pghero.png)
+
+![PgBadger](static/pgbadger.png)
