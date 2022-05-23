@@ -34,3 +34,7 @@ pgbadger:
 	@bash pgbadger.sh
 pgbench:
 	@bash bench.sh
+psql:
+	@docker exec -it postgres-dev-postgresql-1 psql -U postgres -d carroteats
+bash:
+	@docker exec -it postgres-dev-postgresql-1 bash
