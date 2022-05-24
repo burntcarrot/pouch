@@ -1,8 +1,10 @@
 # pouch
 
-🤹 PostgreSQL sandbox for fun. Supports table creation, seed generation, monitoring, backups, and more!
+🤹 PostgreSQL sandbox for fun. Supports table creation, seed generation, monitoring, backups, sharding and more!
 
 > Wrote this sandbox for playing around with PostgreSQL without touching my local instance.
+
+https://aadhav.me/posts/one-week-postgres/
 
 ## Features
 

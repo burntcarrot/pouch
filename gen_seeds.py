@@ -1,5 +1,4 @@
 from faker import Faker
-from faker.providers import BaseProvider
 import random
 import csv
 from tqdm import tqdm
